@@ -134,7 +134,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="/images/p-antrian.png" class="card-img-top" alt="Queue Priority System">
+            <img src="/images/p-API.png" class="card-img-top" alt="Queue Priority System">
             <span class="badge badge-glass-danger position-absolute m-3 top-0 start-0 px-3 py-2 bg-success">API</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
