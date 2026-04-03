@@ -1,27 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Sandi Setianto</title>
-
-    <link href="style/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-
-<nav class="navbar navbar-expand-lg  bg-primary fixed-top">
+<template>
+    <nav class="navbar navbar-expand-lg  bg-primary fixed-top">
   <div class="container-fluid">
-    <img class="foto-nav" src="images/malay.jpeg" alt="foto Nav">
+    <img class="foto-nav" src="/images/malay.jpeg" alt="foto Nav">
     <button class="navbar-toggler alert-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ">
         <a class="nav-link active nav-text text-white " aria-current="page" href="index.html">Beranda</a>
-        <a class="nav-link nav-text text-white" href="sertificates.html">Sertificates</a>
-        <a class="nav-link nav-text text-white-50" href="project.html">Project</a>
+        <a class="nav-link nav-text text-white" href="#/Sertifikat">Sertificates</a>
+        <a class="nav-link nav-text text-white-50" href="#/Projects">Project</a>
       </div>
     </div>
   </div>
@@ -39,10 +27,9 @@
     </div>
     <img 
       class=" img-fluid w-50"
-      src="images/project.svg" 
+      src="/images/project.svg" 
       alt="">
   </div>  
-  </div>
   </div>
 </section>
 
@@ -61,7 +48,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/batik-sawit.png" class="card-img-top" alt="Web Batik Sawit">
+            <img src="/images/batik-sawit.png" class="card-img-top" alt="Web Batik Sawit">
             <span class="badge badge-glass position-absolute m-3 top-0 start-0 px-3 py-2">Web Development</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
@@ -75,7 +62,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/IoT-dasboard2.png" class="card-img-top" alt="IoT Smart Monitoring">
+            <img src="/images/IoT-dasboard2.png" class="card-img-top" alt="IoT Smart Monitoring">
             <span class="badge badge-glass-success position-absolute m-3 top-0 start-0 px-3 py-2">IoT System</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
@@ -89,12 +76,12 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/mymoney-app.png" class="card-img-top" alt="MyMoneyApp">
+            <img src="/images/mymoney-app.png" class="card-img-top" alt="MyMoneyApp">
             <span class="badge badge-glass-info position-absolute m-3 top-0 start-0 px-3 py-2">Mobile App</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
             <h5 class="fw-bold text-dark">MyMoney App</h5>
-            <p class="text-muted small flex-grow-1">"Solusi digital sederhana untuk mengontrol pengeluaran harian. Dibuat dengan presisi untuk memastikan setiap rupiah tercatat dengan rapi.</p>
+            <p class="text-muted small flex-grow-1">Solusi digital sederhana untuk mengontrol pengeluaran harian. Dibuat dengan presisi untuk memastikan setiap rupiah tercatat dengan rapi.</p>
             <a href="https://github.com/sunside2587-creator/MyMoneyApp" class="btn btn-primary w-100 rounded-pill shadow-sm">Detail Project</a>
           </div> 
         </div>
@@ -103,7 +90,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/aplikasi-cafe.png" class="card-img-top" alt="CafeRestoApp">
+            <img src="/images/aplikasi-cafe.png" class="card-img-top" alt="CafeRestoApp">
             <span class="badge badge-glass-info position-absolute m-3 top-0 start-0 px-3 py-2">Mobile App</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
@@ -119,7 +106,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/p-transformasilinear.jpeg" class="card-img-top" alt="Linear Transformation App">
+            <img src="/images/p-transformasilinear.jpeg" class="card-img-top" alt="Linear Transformation App">
             <span class="badge badge-glass-warning position-absolute m-3 top-0 start-0 px-3 py-2 bg-danger">Algorithm & Math</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
@@ -133,7 +120,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/p-antrian.png" class="card-img-top" alt="Queue Priority System">
+            <img src="/images/p-antrian.png" class="card-img-top" alt="Queue Priority System">
             <span class="badge badge-glass-danger position-absolute m-3 top-0 start-0 px-3 py-2 bg-success">Data Structure</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
@@ -147,7 +134,21 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
-            <img src="images/p-mysql.png" class="card-img-top" alt="MySQL Database Project">
+            <img src="/images/p-antrian.png" class="card-img-top" alt="Queue Priority System">
+            <span class="badge badge-glass-danger position-absolute m-3 top-0 start-0 px-3 py-2 bg-success">API</span>
+          </div>
+          <div class="card-body d-flex flex-column p-4">
+            <h5 class="fw-bold text-dark">Bitcoint</h5>
+            <p class="text-muted small flex-grow-1">Real-Time Bitcoin Tracker: Integrasi API untuk Pantauan Harga Akurat.</p>
+            <a href="#/API" class="btn btn-primary w-100 rounded-pill shadow-sm">Detail Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
+          <div class="project-img-container position-relative">
+            <img src="/images/p-mysql.png" class="card-img-top" alt="MySQL Database Project">
             <span class="badge badge-glass-secondary position-absolute m-3 top-0 start-0 px-3 py-2 bg-warning">Database Management</span>
           </div>
           <div class="card-body d-flex flex-column p-4">
@@ -159,12 +160,14 @@
       </div>
     </div>
   </div>
+
+  
 </section>
 
 <!-- footer -->
 
 <footer class="bg_footer text-white py-5 mt-5">
-  <div class="container"  id="kontak">
+  <div class="container">
     <div class="row">
       
       <div class="col-md-4 mb-4">
@@ -193,7 +196,4 @@
     </div>
   </div>
 </footer>
-
-<script src="style/bootstrap.bundle.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+</template>

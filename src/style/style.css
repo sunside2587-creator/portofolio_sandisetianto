@@ -143,3 +143,44 @@
 .transition-all {
   transition: all 0.3s ease-in-out;
 }
+
+/* halaman bitcoin/API */
+
+.crypto-card {
+  background: #112240;
+  border-radius: 20px;
+  border: 1px solid #233554;
+  transition: transform 0.3s ease;
+}
+
+.crypto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.price-text {
+  color: #64ffda;
+  font-weight: bold;
+}
+
+.img-crypto {
+  width: 55px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 8px rgba(100, 255, 218, 0.3));
+}
+
+.btn-blue {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.text-blue-light {
+  color: #00d4ff;
+}

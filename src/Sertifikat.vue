@@ -1,28 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Sandi Setianto</title>
+<template>
 
-    <link href="style/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-
-  <!-- navbar -->
+      <!-- navbar -->
 <nav class="navbar navbar-expand-lg  bg-primary fixed-top">
   <div class="container-fluid">
-    <img class="foto-nav" src="images/malay.jpeg" alt="foto Nav">
+    <img class="foto-nav" src="/images/malay.jpeg" alt="foto Nav">
     <button class="navbar-toggler alert-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ">
         <a class="nav-link active nav-text text-white " aria-current="page" href="index.html">Beranda</a>
-        <a class="nav-link nav-text text-white" href="sertificates.html">Sertificates</a>
-        <a class="nav-link nav-text text-white-50" href="project.html">Project</a>
+        <a class="nav-link nav-text text-white" href="#/Sertifikat">Sertificates</a>
+        <a class="nav-link nav-text text-white-50" href="#/Projects">Project</a>
       </div>
     </div>
   </div>
@@ -40,10 +29,9 @@
     </div>
     <img 
       class=" img-fluid w-50"
-      src="images/sertifikat.svg" 
+      src="/images/sertifikat.svg" 
       alt="">
   </div>  
-  </div>
   </div>
 </section>
 <!-- sertifikat -->
@@ -67,7 +55,7 @@
       <div class="col-lg-3 col-md-6 cert-item it">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-cloudcamp.png" class="card-img-top object-fit-cover rounded-top-4" alt="ID CloudCamp">
+            <img src="/images/s-cloudcamp.png" class="card-img-top object-fit-cover rounded-top-4" alt="ID CloudCamp">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-primary-subtle text-primary mb-2">Web Programing</span>
@@ -80,7 +68,7 @@
       <div class="col-lg-3 col-md-6 cert-item it">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-phyton.png" class="card-img-top object-fit-cover rounded-top-4" alt="SIC Python">
+            <img src="/images/s-phyton.png" class="card-img-top object-fit-cover rounded-top-4" alt="SIC Python">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-primary-subtle text-primary mb-2">Programming</span>
@@ -93,7 +81,7 @@
       <div class="col-lg-3 col-md-6 cert-item it ">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-IoTsamsung.png" class="card-img-top object-fit-cover rounded-top-4" alt="SIC IoT">
+            <img src="/images/s-IoTsamsung.png" class="card-img-top object-fit-cover rounded-top-4" alt="SIC IoT">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-success-subtle text-success mb-2">Internet of Things</span>
@@ -106,7 +94,7 @@
       <div class="col-lg-3 col-md-6 cert-item it">
         <div class="card h-100 border-0 shadow-lg border-start border-warning border-4 rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-IoT2.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Juara 1 IoT">
+            <img src="/images/s-IoT2.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Juara 1 IoT">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-warning text-dark mb-2"><i class="bi bi-trophy-fill me-1"></i> Champion</span>
@@ -119,7 +107,7 @@
       <div class="col-lg-3 col-md-6 cert-item it">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-whitehat.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Cybersecurity">
+            <img src="/images/s-whitehat.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Cybersecurity">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-dark mb-2">Cybersecurity</span>
@@ -132,7 +120,7 @@
       <div class="col-lg-3 col-md-6 cert-item others">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-fotografi2.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Juara Fotografi">
+            <img src="/images/s-fotografi2.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Juara Fotografi">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-info-subtle text-info mb-2">Creativity</span>
@@ -145,7 +133,7 @@
       <div class="col-lg-3 col-md-6 cert-item others">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-asomatif2025.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Asomatif">
+            <img src="/images/s-asomatif2025.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Asomatif">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-secondary-subtle text-secondary mb-2">Leadership</span>
@@ -158,7 +146,7 @@
       <div class="col-lg-3 col-md-6 cert-item others">
         <div class="card h-100 border-0 shadow-sm rounded-4 transition-up">
           <div class="ratio ratio-4x3">
-            <img src="images/s-semnas.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Seminar Nasional">
+            <img src="/images/s-semnas.jpeg" class="card-img-top object-fit-cover rounded-top-4" alt="Seminar Nasional">
           </div>
           <div class="card-body p-3">
             <span class="badge bg-secondary-subtle text-secondary mb-2">Public Speaking</span>
@@ -175,7 +163,7 @@
 <!-- footer -->
 
 <footer class="bg_footer text-white py-5 mt-5">
-  <div class="container"  id="kontak">
+  <div class="container">
     <div class="row">
       
       <div class="col-md-4 mb-4">
@@ -204,7 +192,4 @@
     </div>
   </div>
 </footer>
-
-<script src="style/bootstrap.bundle.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+</template>
