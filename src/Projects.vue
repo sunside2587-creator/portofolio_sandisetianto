@@ -82,7 +82,7 @@
           <div class="card-body d-flex flex-column p-4">
             <h5 class="fw-bold text-dark">Setoran Hafalan Mahasiswa</h5>
             <p class="text-muted small flex-grow-1">"Web Dashboard Setoran Hafalan: Solusi digital untuk monitoring hafalan mahasiswa yang praktis, responsif, dan mudah digunakan kapan saja melalui HP."</p>
-            <a href="setoran-hafalan-tif.vercel.app" class="btn btn-primary w-100 rounded-pill shadow-sm">Detail Project</a>
+            <a href="https://setoran-hafalan-tif.vercel.app/" class="btn btn-primary w-100 rounded-pill shadow-sm">Detail Project</a>
           </div>
         </div>
       </div>
