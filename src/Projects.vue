@@ -76,6 +76,20 @@
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
           <div class="project-img-container position-relative">
+            <img src="/images/p-setorhafalan.png" class="card-img-top" alt="IoT Smart Monitoring">
+            <span class="badge badge-glass-success position-absolute m-3 top-0 start-0 px-3 py-2">Web Development</span>
+          </div>
+          <div class="card-body d-flex flex-column p-4">
+            <h5 class="fw-bold text-dark">Setoran Hafalan Mahasiswa</h5>
+            <p class="text-muted small flex-grow-1">"Web Dashboard Setoran Hafalan: Solusi digital untuk monitoring hafalan mahasiswa yang praktis, responsif, dan mudah digunakan kapan saja melalui HP."</p>
+            <a href="setoran-hafalan-tif.vercel.app" class="btn btn-primary w-100 rounded-pill shadow-sm">Detail Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden project-card transition-all">
+          <div class="project-img-container position-relative">
             <img src="/images/mymoney-app.png" class="card-img-top" alt="MyMoneyApp">
             <span class="badge badge-glass-info position-absolute m-3 top-0 start-0 px-3 py-2">Mobile App</span>
           </div>

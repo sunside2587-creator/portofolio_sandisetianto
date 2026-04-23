@@ -149,7 +149,13 @@
 .crypto-card {
   background: #112240;
   border-radius: 20px;
-  border: 1px solid #233554;
+  border: 1px solid #233554;.img-crypto {
+  filter: drop-shadow(0 0 10px rgba(0, 200, 255, 0.2));
+}
+.price-text {
+  font-weight: 800;
+  letter-spacing: -1px;
+}
   transition: transform 0.3s ease;
 }
 
@@ -184,3 +190,4 @@
 .text-blue-light {
   color: #00d4ff;
 }
+
